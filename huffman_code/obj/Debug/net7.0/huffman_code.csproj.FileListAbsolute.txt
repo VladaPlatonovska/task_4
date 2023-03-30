@@ -1,0 +1,15 @@
+C:\Users\sofma\task_4\huffman_code\bin\Debug\net7.0\huffman_code.exe
+C:\Users\sofma\task_4\huffman_code\bin\Debug\net7.0\huffman_code.deps.json
+C:\Users\sofma\task_4\huffman_code\bin\Debug\net7.0\huffman_code.runtimeconfig.json
+C:\Users\sofma\task_4\huffman_code\bin\Debug\net7.0\huffman_code.dll
+C:\Users\sofma\task_4\huffman_code\bin\Debug\net7.0\huffman_code.pdb
+C:\Users\sofma\task_4\huffman_code\obj\Debug\net7.0\huffman_code.csproj.AssemblyReference.cache
+C:\Users\sofma\task_4\huffman_code\obj\Debug\net7.0\huffman_code.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofma\task_4\huffman_code\obj\Debug\net7.0\huffman_code.AssemblyInfoInputs.cache
+C:\Users\sofma\task_4\huffman_code\obj\Debug\net7.0\huffman_code.AssemblyInfo.cs
+C:\Users\sofma\task_4\huffman_code\obj\Debug\net7.0\huffman_code.csproj.CoreCompileInputs.cache
+C:\Users\sofma\task_4\huffman_code\obj\Debug\net7.0\huffman_code.dll
+C:\Users\sofma\task_4\huffman_code\obj\Debug\net7.0\refint\huffman_code.dll
+C:\Users\sofma\task_4\huffman_code\obj\Debug\net7.0\huffman_code.pdb
+C:\Users\sofma\task_4\huffman_code\obj\Debug\net7.0\huffman_code.genruntimeconfig.cache
+C:\Users\sofma\task_4\huffman_code\obj\Debug\net7.0\ref\huffman_code.dll
