@@ -105,10 +105,12 @@ public class MinHeap
 
     public MinHeapNode Peek()
     {
-        if (_size == 0)
-            throw new IndexOutOfRangeException();
-
-        return _elements[0];
+        if (_size != 0)
+        {
+            return _elements[0];
+        }
+        
+        return null;
     }
 
     public MinHeapNode Pop()
