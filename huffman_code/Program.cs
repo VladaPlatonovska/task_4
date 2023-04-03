@@ -15,6 +15,17 @@ foreach (char c in text) {
 
 HuffmanCode(occurrences);
 
+
+void WriteDictToFile(Dictionary<string, string> codesDict, string path)
+{
+    using StreamWriter writer = new StreamWriter(path);
+    foreach (var pair in codesDict)
+    {
+        writer.WriteLine("{0}: {1}", pair.Key, pair.Value);
+    }
+    writer.Close();
+}
+
 void GenerateCodes(MinHeapNode root, string str)
 {
     if (root == null)
@@ -58,7 +69,7 @@ void HuffmanCode(Dictionary<char, int> frequencies)
 
 void WriteCoddedFile()
 {
-    using StreamWriter writer = new StreamWriter("CodedFile.txt");
+    using StreamWriter writer = new StreamWriter("CodedFile.txt", true);
     {
         foreach (var letter in text)
         {
@@ -69,6 +80,16 @@ void WriteCoddedFile()
 
 void DecodeFile(string path)
 {
+    var huffCodes = new Dictionary<string, string>();
+    string[] lines = File.ReadAllLines(path);
+    foreach (var line in lines)
+    {
+        if (!line.Contains("endDict") && line != " " && line != "")
+        {
+            var keyValue = line.Split(':');
+            huffCodes.Add(keyValue[0], keyValue[1]);
+        }
+    }
     var codedText = File.ReadAllText(path);
     var coddedLetter = "";
     foreach (char c in codedText) {
@@ -87,6 +108,8 @@ void DecodeFile(string path)
     
 }
 
+huffmanCodes["endDict"] = "1";
+WriteDictToFile(huffmanCodes, "CodedFile.txt");
 WriteCoddedFile();
 DecodeFile("CodedFile.txt");
 Console.WriteLine();

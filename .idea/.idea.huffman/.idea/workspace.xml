@@ -4,12 +4,12 @@
     <projectFile>huffman_code/huffman_code.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3b5d8b8-644c-44ea-8426-383d3e5ace6e" name="Changes" comment="Improved huffman coding, added spaces and new line in as huffman codes. Store codes in dictionary to code and decode file. Added Decoding and Writing coded file functions.">
+    <list default="true" id="a3b5d8b8-644c-44ea-8426-383d3e5ace6e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.huffman/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.huffman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.huffman/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/CodedFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/CodedFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huffman_code/huffman_code.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/huffman_code.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.pdb" afterDir="false" />
     </list>
@@ -22,6 +22,7 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Downloads/Program (3).cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a421bf72ce1bd97d2cd3e8739d53f71ff6052294923c475677806b3df7381/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -30,22 +31,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "XThreadsFramesViewSplitterKey": "0.56686044",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.56686044&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\sofma\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\sofma\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\sofma\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/platonovskaaa/Library/Application Support/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/platonovskaaa/Library/Application Support/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/Users/platonovskaaa/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="huffman_code" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code" />
@@ -75,6 +76,9 @@
       <option name="presentableId" value="Default" />
       <updated>1680188333270</updated>
       <workItem from="1680188334774" duration="879000" />
+      <workItem from="1680521242899" duration="19000" />
+      <workItem from="1680531565360" duration="66000" />
+      <workItem from="1680531758905" duration="547000" />
     </task>
     <task id="LOCAL-00001" summary="Improved huffman coding, added spaces and new line in as huffman codes. Store codes in dictionary to code and decode file. Added Decoding and Writing coded file functions.">
       <created>1680512786483</created>
@@ -83,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680512786483</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <created>1680519381596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680519381596</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,20 +117,21 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="merge" />
     <MESSAGE value="Improved huffman coding, added spaces and new line in as huffman codes. Store codes in dictionary to code and decode file. Added Decoding and Writing coded file functions." />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved huffman coding, added spaces and new line in as huffman codes. Store codes in dictionary to code and decode file. Added Decoding and Writing coded file functions." />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/huffman_code/Program.cs</url>
-          <line>71</line>
+          <line>92</line>
           <properties documentPath="$PROJECT_DIR$/huffman_code/Program.cs" initialLine="92" containingFunctionPresentation="local function 'DecodeFile'">
             <startOffsets>
-              <option value="1510" />
+              <option value="2107" />
             </startOffsets>
             <endOffsets>
-              <option value="1549" />
+              <option value="2146" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="6" />
