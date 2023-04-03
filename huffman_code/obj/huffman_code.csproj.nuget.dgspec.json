@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sofma\\task_4\\huffman_code\\huffman_code.csproj": {}
+    "/Users/platonovskaaa/RiderProjects/huffman/huffman_code/huffman_code.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sofma\\task_4\\huffman_code\\huffman_code.csproj": {
+    "/Users/platonovskaaa/RiderProjects/huffman/huffman_code/huffman_code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sofma\\task_4\\huffman_code\\huffman_code.csproj",
+        "projectUniqueName": "/Users/platonovskaaa/RiderProjects/huffman/huffman_code/huffman_code.csproj",
         "projectName": "huffman_code",
-        "projectPath": "C:\\Users\\sofma\\task_4\\huffman_code\\huffman_code.csproj",
-        "packagesPath": "C:\\Users\\sofma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sofma\\task_4\\huffman_code\\obj\\",
+        "projectPath": "/Users/platonovskaaa/RiderProjects/huffman/huffman_code/huffman_code.csproj",
+        "packagesPath": "/Users/platonovskaaa/.nuget/packages/",
+        "outputPath": "/Users/platonovskaaa/RiderProjects/huffman/huffman_code/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\sofma\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/platonovskaaa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

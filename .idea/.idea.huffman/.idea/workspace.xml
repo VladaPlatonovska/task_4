@@ -4,32 +4,59 @@
     <projectFile>huffman_code/huffman_code.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3b5d8b8-644c-44ea-8426-383d3e5ace6e" name="Changes" comment="" />
+    <list default="true" id="a3b5d8b8-644c-44ea-8426-383d3e5ace6e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.huffman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.huffman/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/ref/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/ref/huffman_code.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/refint/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/refint/huffman_code.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/huffman_code.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/huffman_code.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/huffman_code.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/huffman_code.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a421bf72ce1bd97d2cd3e8739d53f71ff6052294923c475677806b3df7381/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2NjrSc1RuTR7T3n1iHo3LpoOS53" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\sofma\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\sofma\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\sofma\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\sofma\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\sofma\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\sofma\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="huffman_code" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -65,8 +92,41 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/huffman_code/Program.cs</url>
+          <line>91</line>
+          <properties documentPath="$PROJECT_DIR$/huffman_code/Program.cs" initialLine="59" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="1976" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1996" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

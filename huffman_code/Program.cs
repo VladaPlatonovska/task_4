@@ -1,8 +1,8 @@
 ﻿Dictionary<char, int> occurrences = new Dictionary<char, int>();
+var huffmanCodes = new Dictionary<string, string>();
 string text = File.ReadAllText("sherlock.txt");
 foreach (char c in text) {
-    if (c != ' ' && c != '\n')
-    {
+
         if (!occurrences.ContainsKey(c)) 
         {
             occurrences.Add(c, 1);
@@ -10,21 +10,24 @@ foreach (char c in text) {
         else {
             occurrences[c]++;
         }
-    }
+    
 }
 
 HuffmanCode(occurrences);
 
-static void PrintCodes(MinHeapNode root, string str)
+void GenerateCodes(MinHeapNode root, string str)
 {
     if (root == null)
         return;
- 
+
     if (root.Value != null)
+    {
+        huffmanCodes[root.Value] = str;
         Console.WriteLine(root.Value + ": " + str);
- 
-    PrintCodes(root.Left, str + "0");
-    PrintCodes(root.Right, str + "1");
+    }
+
+    GenerateCodes(root.Left, str + "0");
+    GenerateCodes(root.Right, str + "1");
 }
 
 void HuffmanCode(Dictionary<char, int> frequencies)
@@ -50,10 +53,43 @@ void HuffmanCode(Dictionary<char, int> frequencies)
     
     }
     
-    PrintCodes(minHeap.Peek(), null);
+    GenerateCodes(minHeap.Peek(), null);
 }
 
+void WriteCoddedFile()
+{
+    using StreamWriter writer = new StreamWriter("CodedFile.txt");
+    {
+        foreach (var letter in text)
+        {
+            writer.Write(huffmanCodes[letter.ToString()]);
+        }
+    }
+}
 
+void DecodeFile(string path)
+{
+    var codedText = File.ReadAllText(path);
+    var coddedLetter = "";
+    foreach (char c in codedText) {
+        
+        if (huffmanCodes.ContainsValue(coddedLetter))
+        {
+            var letter = coddedLetter;
+            var myKey = huffmanCodes.FirstOrDefault(x => x.Value == letter).Key;
+            Console.Write(myKey);
+            coddedLetter = "";
+        }
+
+        coddedLetter += c;
+    
+    }
+    
+}
+
+WriteCoddedFile();
+DecodeFile("CodedFile.txt");
+Console.WriteLine();
 public class MinHeapNode
 {
     public readonly string Value;
@@ -161,5 +197,4 @@ public class MinHeap
             index = parentIndex;
         }
     }
-    
 }
