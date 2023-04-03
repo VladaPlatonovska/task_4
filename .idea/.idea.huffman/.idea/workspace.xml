@@ -4,14 +4,8 @@
     <projectFile>huffman_code/huffman_code.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3b5d8b8-644c-44ea-8426-383d3e5ace6e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.huffman/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.huffman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.huffman/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huffman_code/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.pdb" afterDir="false" />
+    <list default="true" id="a3b5d8b8-644c-44ea-8426-383d3e5ace6e" name="Changes" comment="tried to do an additional task">
+      <change beforePath="$PROJECT_DIR$/huffman_code/:.gitignore.rtf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +18,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Downloads/Program (3).cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a421bf72ce1bd97d2cd3e8739d53f71ff6052294923c475677806b3df7381/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2NjrSc1RuTR7T3n1iHo3LpoOS53" />
@@ -78,7 +75,7 @@
       <workItem from="1680188334774" duration="879000" />
       <workItem from="1680521242899" duration="19000" />
       <workItem from="1680531565360" duration="66000" />
-      <workItem from="1680531758905" duration="547000" />
+      <workItem from="1680531758905" duration="1191000" />
     </task>
     <task id="LOCAL-00001" summary="Improved huffman coding, added spaces and new line in as huffman codes. Store codes in dictionary to code and decode file. Added Decoding and Writing coded file functions.">
       <created>1680512786483</created>
@@ -94,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680519381596</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tried to do an additional task">
+      <created>1680532435100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680532435100</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +122,8 @@
     <MESSAGE value="merge" />
     <MESSAGE value="Improved huffman coding, added spaces and new line in as huffman codes. Store codes in dictionary to code and decode file. Added Decoding and Writing coded file functions." />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="tried to do an additional task" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried to do an additional task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
