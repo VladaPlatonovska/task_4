@@ -21,7 +21,16 @@ void WriteDictToFile(Dictionary<string, string> codesDict, string path)
     using StreamWriter writer = new StreamWriter(path);
     foreach (var pair in codesDict)
     {
-        writer.WriteLine("{0}: {1}", pair.Key, pair.Value);
+        var symbol = pair.Key;
+        if (symbol == "\n")
+        {
+            symbol = "<N>" ;
+        }
+        else if (symbol == "\r")
+        {
+            symbol = "<R>" ;
+        }
+        writer.WriteLine("{0}: {1}", symbol, pair.Value);
     }
     writer.Close();
 }
@@ -84,13 +93,26 @@ void DecodeFile(string path)
     string[] lines = File.ReadAllLines(path);
     foreach (var line in lines)
     {
-        if (!line.Contains("endDict") && line != " " && line != "")
+        if (!line.Contains("endDict"))
         {
-            var keyValue = line.Split(':');
-            huffCodes.Add(keyValue[0], keyValue[1]);
+            var keyValue = line.Split(": ");
+            var symbol = keyValue[0];
+            if (symbol == "<N>")
+            {
+                symbol = "\n";
+            }
+            else if (symbol == "<R>")
+            {
+                symbol = "\r";
+            }
+            huffCodes.Add(symbol, keyValue[1]);
+        }
+        else
+        {
+            break;
         }
     }
-    var codedText = File.ReadAllText(path);
+    var codedText = lines[lines.Length - 1];
     var coddedLetter = "";
     foreach (char c in codedText) {
         
@@ -108,7 +130,7 @@ void DecodeFile(string path)
     
 }
 
-huffmanCodes["endDict"] = "1";
+huffmanCodes["endDict"] = "9";
 WriteDictToFile(huffmanCodes, "CodedFile.txt");
 WriteCoddedFile();
 DecodeFile("CodedFile.txt");

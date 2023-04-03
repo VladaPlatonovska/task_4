@@ -4,8 +4,14 @@
     <projectFile>huffman_code/huffman_code.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3b5d8b8-644c-44ea-8426-383d3e5ace6e" name="Changes" comment="tried to do an additional task">
-      <change beforePath="$PROJECT_DIR$/huffman_code/:.gitignore.rtf" beforeDir="false" />
+    <list default="true" id="a3b5d8b8-644c-44ea-8426-383d3e5ace6e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.huffman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.huffman/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/CodedFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/CodedFile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +81,8 @@
       <workItem from="1680188334774" duration="879000" />
       <workItem from="1680521242899" duration="19000" />
       <workItem from="1680531565360" duration="66000" />
-      <workItem from="1680531758905" duration="1191000" />
+      <workItem from="1680531758905" duration="2699000" />
+      <workItem from="1680544302702" duration="2738000" />
     </task>
     <task id="LOCAL-00001" summary="Improved huffman coding, added spaces and new line in as huffman codes. Store codes in dictionary to code and decode file. Added Decoding and Writing coded file functions.">
       <created>1680512786483</created>
@@ -98,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680532435100</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="12">
+      <created>1680533085415</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680533085415</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,25 +137,7 @@
     <MESSAGE value="Improved huffman coding, added spaces and new line in as huffman codes. Store codes in dictionary to code and decode file. Added Decoding and Writing coded file functions." />
     <MESSAGE value="." />
     <MESSAGE value="tried to do an additional task" />
-    <option name="LAST_COMMIT_MESSAGE" value="tried to do an additional task" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/huffman_code/Program.cs</url>
-          <line>92</line>
-          <properties documentPath="$PROJECT_DIR$/huffman_code/Program.cs" initialLine="92" containingFunctionPresentation="local function 'DecodeFile'">
-            <startOffsets>
-              <option value="2107" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2146" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
 </project>
