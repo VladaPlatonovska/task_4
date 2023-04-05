@@ -135,6 +135,53 @@ WriteDictToFile(huffmanCodes, "CodedFile.txt");
 WriteCoddedFile();
 DecodeFile("CodedFile.txt");
 Console.WriteLine();
+
+
+void BinaryHardcore(string inputData,Dictionary<string, string> codes)
+{
+    // Open the file stream for writing
+    FileStream outputStream = new FileStream("compressed.bin", FileMode.Create);
+
+    // Create a binary writer to write the encoded bits to the file stream
+    BinaryWriter writer = new BinaryWriter(outputStream);
+    
+    // Define a buffer to store the encoded bits before writing them to the file stream
+    byte[] buffer = new byte[1];
+
+    foreach (char c in inputData)
+    {
+        string code = codes[c.ToString()];
+        foreach (char bit in code)
+        {
+            // Shift the current byte left and add the current bit
+            buffer[0] <<= 1; //  shifts the bits in the buffer[0] byte one position to the left.
+            if (bit == '1')
+            {
+                buffer[0] |= 0x01; // or = 0x01 is binary 00000001
+            }
+        
+            // If the current byte is full, write it to the file stream
+            if ((buffer[0] & 0x80) == 0x80) // 0x80 is binary 10000000
+            {
+                writer.Write(buffer);
+                buffer[0] = 0;
+            }
+        }
+    }
+
+    // If there are any remaining bits in the buffer, write them to the file stream
+    if ((buffer[0] & 0x80) != 0x80)
+    {
+        buffer[0] <<= (8 - (codes[inputData[^1].ToString()].Length % 8)); // ^1 = length-1
+        writer.Write(buffer);
+    }
+
+    writer.Close();
+    outputStream.Close();
+}
+
+BinaryHardcore(text, huffmanCodes);
+
 public class MinHeapNode
 {
     public readonly string Value;
