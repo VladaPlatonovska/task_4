@@ -1,6 +1,7 @@
-﻿Dictionary<char, int> occurrences = new Dictionary<char, int>();
+﻿using System.Text;
+Dictionary<char, int> occurrences = new Dictionary<char, int>();
 var huffmanCodes = new Dictionary<string, string>();
-string text = File.ReadAllText("sherlock.txt");
+string text = File.ReadAllText("/Users/platonovskaaa/RiderProjects/huffman/huffman_code/sherlock.txt");
 foreach (char c in text) {
 
         if (!occurrences.ContainsKey(c)) 
@@ -86,7 +87,7 @@ void WriteCoddedFile()
         }
     }
 }
-
+/*
 void DecodeFile(string path)
 {
     var huffCodes = new Dictionary<string, string>();
@@ -135,12 +136,12 @@ WriteDictToFile(huffmanCodes, "CodedFile.txt");
 WriteCoddedFile();
 DecodeFile("CodedFile.txt");
 Console.WriteLine();
-
+*/
 
 void BinaryHardcore(string inputData,Dictionary<string, string> codes)
 {
     // Open the file stream for writing
-    FileStream outputStream = new FileStream("compressed.bin", FileMode.Create);
+    FileStream outputStream = new FileStream("/Users/platonovskaaa/RiderProjects/huffman/huffman_code/compressed.bin", FileMode.Create);
 
     // Create a binary writer to write the encoded bits to the file stream
     BinaryWriter writer = new BinaryWriter(outputStream);
@@ -182,6 +183,69 @@ void BinaryHardcore(string inputData,Dictionary<string, string> codes)
 
 BinaryHardcore(text, huffmanCodes);
 
+void DecodeBinaryHardcore(string path, Dictionary<string, string> codes)
+{
+    // Open the file stream for reading
+    FileStream inputStream = new FileStream(path, FileMode.Open);
+
+    // Create a binary reader to read the encoded bits from the file stream
+    BinaryReader reader = new BinaryReader(inputStream);
+
+    // Define a buffer to store the bits as they are read from the file stream
+    byte[] buffer = new byte[1];
+
+    // Define a variable to keep track of the current bit position in the buffer
+    int position = 0;
+
+    // Define a variable to store the decoded text
+    StringBuilder decodedText = new StringBuilder();
+
+    // Loop through the bits in the file stream
+    while (reader.BaseStream.Position < reader.BaseStream.Length)
+    {
+        // Read the next byte from the file stream
+        buffer[0] = reader.ReadByte();
+
+        // Loop through the bits in the byte
+        for (int i = 0; i < 8; i++)
+        {
+            // Extract the current bit from the buffer
+            bool bit = (buffer[0] & (1 << (7 - position))) != 0;
+
+            // Shift the current bit position to the next bit in the buffer
+            position++;
+
+            // If the current bit position is at the end of the buffer, reset it to the beginning
+            if (position == 8)
+            {
+                position = 0;
+            }
+
+            // Check if the current sequence of bits matches any of the Huffman codes
+            foreach (var c in codes)
+            {
+                if (c.Value.Length == decodedText.Length + 1 && c.Value.StartsWith(decodedText.ToString()) && c.Value[^1] == (bit ? '1' : '0'))
+                {
+                    // If the current sequence of bits matches a Huffman code, add the corresponding character to the decoded text
+                    decodedText.Append(c.Key);
+
+                    // Reset the current bit position to the beginning of the buffer
+                    position = 0;
+
+                    // Exit the loop over Huffman codes
+                    break;
+                }
+            }
+        }
+    }
+
+    reader.Close();
+    inputStream.Close();
+
+    Console.WriteLine(decodedText.ToString());
+}
+
+DecodeBinaryHardcore("/Users/platonovskaaa/RiderProjects/huffman/huffman_code/compressed.bin",huffmanCodes);
 public class MinHeapNode
 {
     public readonly string Value;

@@ -4,7 +4,29 @@
     <projectFile>huffman_code/huffman_code.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3b5d8b8-644c-44ea-8426-383d3e5ace6e" name="Changes" comment="" />
+    <list default="true" id="a3b5d8b8-644c-44ea-8426-383d3e5ace6e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.huffman/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.huffman/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/compressed.bin" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/compressed.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/huffman_code.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/bin/Debug/net7.0/sherlock.txt" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/sherlock.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/huffman_code.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/ref/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/ref/huffman_code.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/refint/huffman_code.dll" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/Debug/net7.0/refint/huffman_code.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/huffman_code.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/huffman_code.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/huffman_code.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/huffman_code.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/huffman_code/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/huffman_code/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +34,12 @@
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Downloads/Program (3).cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5cf396ad80f2a5878415ac224dad95e8e831f6ada6b8dac9ef7c3d17eb993911/SafeFileHandle.Unix.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a421bf72ce1bd97d2cd3e8739d53f71ff6052294923c475677806b3df7381/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c03ecbf882ec617b54fbd5b46063c091a895e6f24a14a0411120ddd7f0ea7b/Dictionary.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,6 +99,9 @@
       <workItem from="1680531565360" duration="66000" />
       <workItem from="1680531758905" duration="2699000" />
       <workItem from="1680544302702" duration="2738000" />
+      <workItem from="1680704198845" duration="9450000" />
+      <workItem from="1680724312104" duration="2000" />
+      <workItem from="1680724317825" duration="3417000" />
     </task>
     <task id="LOCAL-00001" summary="Improved huffman coding, added spaces and new line in as huffman codes. Store codes in dictionary to code and decode file. Added Decoding and Writing coded file functions.">
       <created>1680512786483</created>
@@ -127,5 +158,42 @@
     <MESSAGE value="tried to do an additional task" />
     <MESSAGE value="12" />
     <option name="LAST_COMMIT_MESSAGE" value="12" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/huffman_code/Program.cs</url>
+          <line>203</line>
+          <properties documentPath="$PROJECT_DIR$/huffman_code/Program.cs" initialLine="203" containingFunctionPresentation="local function 'DecodeBinaryHardcore'">
+            <startOffsets>
+              <option value="5411" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5472" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/huffman_code/Program.cs</url>
+          <line>229</line>
+          <properties documentPath="$PROJECT_DIR$/huffman_code/Program.cs" initialLine="229" containingFunctionPresentation="local function 'DecodeBinaryHardcore'">
+            <startOffsets>
+              <option value="6521" />
+            </startOffsets>
+            <endOffsets>
+              <option value="6547" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Frame#Program.&lt;&lt;Main&gt;$&gt;g__BinaryHardcore|0_4" memberName="codes" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
